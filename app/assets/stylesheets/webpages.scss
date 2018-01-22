@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7fffd4; /* ここを変更 */
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+li{
+  list-style-type: none;
+}
+
+#theme1 ul li, #theme2 ul li{
+  background-color:#F3A7AB;
+  color:#fff;
+  padding:2% 2%;
+  border: solid 1px #fff;
+}
+
+#theme2 ul li{
+  background-color:skyblue;
+}
+
+div.blog-panel {
+  height: 200px;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+
+header, footer{
+  text-align: center;
+}
+
+.toBlogIndex{
+  margin: 20px auto;
+  font-size: 28px;
+  text-align: center;
+}
